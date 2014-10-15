@@ -8,21 +8,6 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-	public void ContaPares_e_Impares(int num){
-		int i;
-		for(i = 0; i<= num; i = i+2){
-			System.out.println(i);
-		}
-		for(i = 1; i<= num; i = i+2){
-			System.out.println(i);
-		}
-	}
-	public int ContaImpar(int num){
-		int i;
-		for(i = 1; i<= num; i = i+2){
-			System.out.println(i);
-		}
-		return  i;
-	}
+
 	
 }
