@@ -8,4 +8,10 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
+	public void Conta(int num){
+		int i;
+		for(i = 0; i<= num; i = i+1){
+			System.out.println(i);
+		}
+	}
 }
