@@ -25,16 +25,10 @@ public class Contador {
 		return  i;
 	}
 	
-	public void ContaTodos(int num){
+	public int ContaTriplo(int num){
 		int i;
 		for(i = 0; i<= num; i++){
-			System.out.println(i);
-		}
-	}
-	public int ContaDobro(int num){
-		int i;
-		for(i = 0; i<= num; i++){
-			System.out.println(2*i);
+			System.out.println(3*i);
 		}
 		return i;
 	}
