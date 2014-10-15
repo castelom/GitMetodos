@@ -12,7 +12,7 @@ public class Contador {
 		for(i = 1; i<= num; i = i+2){
 			System.out.println(i);
 		}
-		return int;
+		return  i;
 	}
 	
 	public void ContaTodos(int num){
