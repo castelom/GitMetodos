@@ -25,17 +25,6 @@ public class Contador {
 		return  i;
 	}
 	
-	public void ContaTodos(int num){
-		int i;
-		for(i = 0; i<= num; i++){
-			System.out.println(i);
-		}
-	}
-	public void ContaDobro(int num){
-		int i;
-		for(i = 0; i<= num; i++){
-			System.out.println(2*i);
-		}
-	}
+
 	
 }
