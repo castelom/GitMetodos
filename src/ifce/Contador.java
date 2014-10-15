@@ -15,4 +15,11 @@ public class Contador {
 		return int;
 	}
 	
+	public void ContaTodos(int num){
+		int i;
+		for(i = 0; i<= num; i++){
+			System.out.println(i);
+		}
+	}
+	
 }
