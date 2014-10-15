@@ -21,11 +21,12 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-	public void ContaDobro(int num){
+	public int ContaDobro(int num){
 		int i;
 		for(i = 0; i<= num; i++){
 			System.out.println(2*i);
 		}
+		return i;
 	}
 	
 }
