@@ -8,14 +8,4 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-
-	
-	public int ContaTriplo(int num){
-		int i;
-		for(i = 0; i<= num; i++){
-			System.out.println(3*i);
-		}
-		return i;
-	}
-	
 }
