@@ -7,11 +7,12 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-	public void ContaImpar(int num){
+	public int ContaImpar(int num){
 		int i;
 		for(i = 1; i<= num; i = i+2){
 			System.out.println(i);
 		}
+		return int;
 	}
 	
 	public void ContaTodos(int num){
